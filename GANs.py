@@ -118,9 +118,9 @@ def denoising(image):
 
     return np.clip(model.predict(input_noise)[0], 0, 255).astype(np.uint8)
 
-noisy_image=cv2.imread('practice.png')
+noisy_image=cv2.imread('training/practice.png')
 #noisy_image=cv2.cvtColor(noisy_image,cv2.COLOR_BGR2RGB)
 #noisy_image=noisy_image.astype('float32')
-denoised_name='result.png'
+denoised_name='training/result.png'
 denoised_image = denoising(noisy_image)
 cv2.imwrite(denoised_name, denoised_image)
