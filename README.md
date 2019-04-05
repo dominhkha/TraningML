@@ -1,1 +1,2 @@
 # training
+test only
