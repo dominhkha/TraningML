@@ -36,10 +36,15 @@ def load_training_data(root_path,num_images=-1):
     training_images,label_images=zip(*rand)
     label_lib={0:'cat',1:'dog'}
     return training_images,label_images,label_lib
-
+'''
 if __name__=='__main__':
 
     training_images,label_images,label_lib=load_training_data("dataset/training_set/")
 
     print(label_images[0],label_images[500])
     #print(training_images.shape,label_images.shape)
+    '''
+x=np.array([[1,2,3],[4,5,6]])
+for i in range(4,-1,-1):
+    print(i)
+print("oke")

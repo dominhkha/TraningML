@@ -8,7 +8,6 @@ import numpy as np
 import os
 from keras.optimizers import Adam
 import cv2
-import h5py
 from keras import backend as K
 
 def reflection_padding(x, padding):
