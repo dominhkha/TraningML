@@ -4,6 +4,7 @@ import os
 from tensorflow.keras.preprocessing.image import img_to_array, load_img
 import random
 import matplotlib.image as mpimg
+from skimage.io import imread
 def load_training_data(root_path,num_images=-1):
 
     names=[d for d in os.listdir(root_path) if d=='cats'or d=='dogs']
@@ -23,8 +24,7 @@ def load_training_data(root_path,num_images=-1):
 
         print("loading...".format(color='blue'))
         for path in file_names:
-            image = load_img(path,target_size=(512,512))
-            image=np.array(image)
+            image = load_img(path,target_size=(224,224))
             training_images.append(image)
             if d == "cats":
                 label_images.append(0)
@@ -36,6 +36,7 @@ def load_training_data(root_path,num_images=-1):
     training_images,label_images=zip(*rand)
     label_lib={0:'cat',1:'dog'}
     return training_images,label_images,label_lib
+
 
 if __name__=='__main__':
 
