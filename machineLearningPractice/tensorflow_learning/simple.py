@@ -21,3 +21,16 @@ with tf.Session() as sess:
     y.initializer.run()
     result=f.eval()
     print(result)
+
+# solution 3
+
+init=tf.global_variables_initializer()
+with tf.Session as sess:
+    init.run()
+    result=f.eval()
+
+# all above are default graph
+# To make independent graph :
+graph=tf.Graph()
+with graph.as_default():
+    x2=tf.Variable(2)
