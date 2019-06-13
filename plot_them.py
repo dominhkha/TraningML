@@ -4,14 +4,14 @@ import os
 from load_data import *
 
 # I am only major in 'matplotlib' so that obviously I have mistakes,
-# please send me feedbacks at "https://www.facebook.com/minhkha911"
+# Send me feedbacks at "https://www.facebook.com/minhkha911"
 # Big thanks
 
-# num_image do not more 15 images, suggested by me
+# num_image may not more 15 image
 def show_plot_some_image(num_image,training_images,labels_images,dict={0:'cat',1:'dog'}):
     values=list(dict.values())
     plt.figure(figsize=(10,10))
-    training_images=np.array(training_images)
+    #training_images=np.array(training_images)
     for i in range(num_image*num_image):
         plt.subplot(num_image,num_image,i+1)
         plt.xticks([])
@@ -22,19 +22,20 @@ def show_plot_some_image(num_image,training_images,labels_images,dict={0:'cat',1
     plt.show()
 
 
-def plot_image_result(i,predictions_array,true_labels,img,dict={0:'cat',1:'dog'}):
-    values=dict.values()
+def plot_image_result(i,predictions_array,true_labels,img,_dict={0:'cat',1:'dog'}):
+    values=list(_dict.values())
     predictions_array,true_labels,img=predictions_array[i],true_labels[i],img[i]
     plt.grid(False)
     plt.xticks([])
     plt.yticks([])
     plt.imshow(img)
     predicted_label=np.argmax(predictions_array)
-    if predictions_array==true_labels:
+    print(predictions_array)
+    if predicted_label==true_labels:
         color='blue'
     else: color='red'
-    plt.xlabel('{} {:2.0f%} {}'.format(values[predictions_array],100%np.max(predictions_array),values[true_labels],color=color))
-
+    plt.xlabel('{} {:2.0f}% {}'.format(values[predicted_label],100*float(np.max(predictions_array)),values[true_labels]),color=color)
+   
 def plot_image_array(i,predictions_array,true_label,dict={0:'cat',1:'dog'}):
     values=dict.values()
     predictions_array,true_label=predictions_array[i],true_label[i]
