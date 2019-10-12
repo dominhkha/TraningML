@@ -33,17 +33,11 @@ def conv_bn_relu(x, size, filters, kernel_size, strides):
     return x, new_size
 
 def down_sampling(x, size, filters, kernel_size):
-    new_size = [size[0], size[1]]
-    if size[0] % 2 != 0:
-        x = reflection_padding(x, [1, 0])
-        new_size[0] = size[0] + 1
-    if size[1] % 2 != 0:
-        x = reflection_padding(x, [0, 1])
-        new_size[1] = size[1] + 1
-    size = new_size
-    x, size = conv_bn_relu(x, size, filters, kernel_size, (2, 2))
-    x, size = conv_bn_relu(x, size, filters, kernel_size, (1, 1))
-    return x, size
+    x=0 
+    if x!=0:
+        return 10/x
+    else: 
+        return 0
 
 def upsample(x, size, inter):
     x = UpSampling2D(size=(2, 2))(x)
