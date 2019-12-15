@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b81c2e8-c164-4bd5-9b73-55c4aea4a93b" name="Default Changelist" comment="" />
+    <list default="true" id="6b81c2e8-c164-4bd5-9b73-55c4aea4a93b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MLByHand/KNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -28,7 +32,29 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.NaiveBayes">
+  <component name="RunManager" selected="Python.KNN">
+    <configuration name="KNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MLByHand" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLByHand/KNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.KNN" />
         <item itemvalue="Python.NaiveBayes" />
         <item itemvalue="Python.naiveBayes" />
         <item itemvalue="Python.MultipleLinearRegression" />
@@ -151,6 +178,7 @@
       <workItem from="1576256606668" duration="5826000" />
       <workItem from="1576323644053" duration="10382000" />
       <workItem from="1576379580707" duration="3514000" />
+      <workItem from="1576386614979" duration="4046000" />
     </task>
     <servers />
   </component>
@@ -162,22 +190,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1576256787246" />
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1576381617026">
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1576403997551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576381617026" />
-    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1576381617026">
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576403997551" />
+    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1576403997551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576381617026" />
-    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1576381617026">
+    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576403997551" />
+    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1576403997551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576381617026" />
-    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1576381617026">
+    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576403997551" />
+    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1576403997551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576381617026" />
+    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576403997551" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1576381546575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -198,18 +226,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576256752684" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576381922533">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576404026691">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576381922533" />
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1576379607907">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576404026691" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1576386643146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576379607907" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576386643146" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MachineLearning$naiveBayes.coverage" NAME="naiveBayes Coverage Results" MODIFIED="1576381603373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MLByHand" />
     <SUITE FILE_PATH="coverage/MachineLearning$MultipleLinearRegression.coverage" NAME="MultipleLinearRegression Coverage Results" MODIFIED="1576380245865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
+    <SUITE FILE_PATH="coverage/MachineLearning$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1576403997551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MLByHand" />
     <SUITE FILE_PATH="coverage/MachineLearning$LinearRegression.coverage" NAME="LinearRegression Coverage Results" MODIFIED="1576344231567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
     <SUITE FILE_PATH="coverage/MachineLearning$ImageClassification.coverage" NAME="ImageClassification Coverage Results" MODIFIED="1576336859910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
     <SUITE FILE_PATH="coverage/MachineLearning$simpleLinearRegression.coverage" NAME="simpleLinearRegression Coverage Results" MODIFIED="1576260390680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MLByHand" />
