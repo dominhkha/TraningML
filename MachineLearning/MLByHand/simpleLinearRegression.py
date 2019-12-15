@@ -29,6 +29,7 @@ class SimpleLinearRegression:
 
     def batchGradientDescent(self,x,y,theta):
         # print(theta)
+        index = 0
         while True:
             next_theta= self.update(x,y,theta)
             # print(self.sum_of_square(x,y,theta))
@@ -36,6 +37,8 @@ class SimpleLinearRegression:
                 break
             theta = next_theta
             print(theta)
+            print(index)
+            index +=1
             # break
 
 
@@ -45,5 +48,7 @@ if __name__=="__main__":
     theta = [10,10]
     model = SimpleLinearRegression()
     model.batchGradientDescent(x,y,theta)
+#    fn = model.target_fn(x,y)
+#loss = 0.25 * (sum((y_i-fn_i)))
 
 
