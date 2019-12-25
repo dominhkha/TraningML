@@ -2,3 +2,4 @@
 # ignore folder MachineLearning/evenv
 MachineLearning/venv/
 MachineLearning/venv/Lib/
+MachineLearning/WebCrawler/MysqlConnector.py

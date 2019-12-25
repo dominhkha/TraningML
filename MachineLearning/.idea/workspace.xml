@@ -3,11 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="6b81c2e8-c164-4bd5-9b73-55c4aea4a93b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawler/MysqlConnector.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawler/MysqlConnector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawler/vietnam_trend.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawler/vietnam_trend.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -29,9 +38,31 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.KNN">
+  <component name="RunManager" selected="Python.MysqlConnector">
+    <configuration name="ImageClassification" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/ImageClassification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="KNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,7 +85,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MysqlConnector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebCrawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebCrawler/MysqlConnector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tfcore" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,7 +120,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/LinearRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/tfcore.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MultipleLinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="vnepress" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,56 +137,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebCrawler" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/MultipleLinearRegression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="NaiveBayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/NaiveBayes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="naiveBayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MLByHand" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLByHand/naiveBayes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebCrawler/vnepress.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MysqlConnector" />
+        <item itemvalue="Python.vnepress" />
+        <item itemvalue="Python.tfcore" />
+        <item itemvalue="Python.ImageClassification" />
         <item itemvalue="Python.KNN" />
-        <item itemvalue="Python.NaiveBayes" />
-        <item itemvalue="Python.naiveBayes" />
-        <item itemvalue="Python.MultipleLinearRegression" />
-        <item itemvalue="Python.LinearRegression" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +187,11 @@
       <workItem from="1576323644053" duration="10382000" />
       <workItem from="1576379580707" duration="3514000" />
       <workItem from="1576386614979" duration="6302000" />
+      <workItem from="1576741543791" duration="3115000" />
+      <workItem from="1577184256000" duration="5243000" />
+      <workItem from="1577202952807" duration="3223000" />
+      <workItem from="1577211726482" duration="3178000" />
+      <workItem from="1577246654707" duration="3039000" />
     </task>
     <servers />
   </component>
@@ -189,22 +203,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1576256787246" />
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1576420779280">
+    <state width="1493" height="319" key="GridCell.Tab.0.bottom" timestamp="1577249776009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576420779280" />
-    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1576420779280">
+    <state width="1493" height="319" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577249776009" />
+    <state width="1493" height="319" key="GridCell.Tab.0.center" timestamp="1577249776009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576420779280" />
-    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1576420779279">
+    <state width="1493" height="319" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577249776009" />
+    <state width="1493" height="319" key="GridCell.Tab.0.left" timestamp="1577249776009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576420779279" />
-    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1576420779280">
+    <state width="1493" height="319" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577249776009" />
+    <state width="1493" height="319" key="GridCell.Tab.0.right" timestamp="1577249776009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576420779280" />
+    <state width="1493" height="319" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577249776009" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1576381546575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -221,26 +235,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576381546575" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1576256752684">
+    <state x="277" y="54" key="SettingsEditor" timestamp="1577212053552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576256752684" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577212053552" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576404026691">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576404026691" />
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1576386643146">
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1577247133395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576386643146" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577247133395" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MachineLearning$naiveBayes.coverage" NAME="naiveBayes Coverage Results" MODIFIED="1576381603373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MLByHand" />
     <SUITE FILE_PATH="coverage/MachineLearning$MultipleLinearRegression.coverage" NAME="MultipleLinearRegression Coverage Results" MODIFIED="1576380245865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
     <SUITE FILE_PATH="coverage/MachineLearning$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1576403997551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MLByHand" />
+    <SUITE FILE_PATH="coverage/MachineLearning$vnepress.coverage" NAME="vnepress Coverage Results" MODIFIED="1577212217244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebCrawler" />
     <SUITE FILE_PATH="coverage/MachineLearning$LinearRegression.coverage" NAME="LinearRegression Coverage Results" MODIFIED="1576344231567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
-    <SUITE FILE_PATH="coverage/MachineLearning$ImageClassification.coverage" NAME="ImageClassification Coverage Results" MODIFIED="1576336859910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
+    <SUITE FILE_PATH="coverage/MachineLearning$MysqlConnector.coverage" NAME="MysqlConnector Coverage Results" MODIFIED="1577249776001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebCrawler" />
+    <SUITE FILE_PATH="coverage/MachineLearning$ImageClassification.coverage" NAME="ImageClassification Coverage Results" MODIFIED="1576742971068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
     <SUITE FILE_PATH="coverage/MachineLearning$simpleLinearRegression.coverage" NAME="simpleLinearRegression Coverage Results" MODIFIED="1576260390680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MLByHand" />
     <SUITE FILE_PATH="coverage/MachineLearning$NaiveBayes.coverage" NAME="NaiveBayes Coverage Results" MODIFIED="1576381609683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
+    <SUITE FILE_PATH="coverage/MachineLearning$tfcore.coverage" NAME="tfcore Coverage Results" MODIFIED="1576746314630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
   </component>
 </project>

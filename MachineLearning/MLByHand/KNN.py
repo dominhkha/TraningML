@@ -29,7 +29,10 @@ class KNN:
             votes[train_label_row] += inv_dist
 
         predicted = max(votes, key=lambda vote_i: votes[vote_i])
+
         return votes
+
+
 
 
 
