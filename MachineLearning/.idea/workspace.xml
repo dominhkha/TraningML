@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b81c2e8-c164-4bd5-9b73-55c4aea4a93b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawler/MysqlConnector.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawler/MysqlConnector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCrawler/vietnam_trend.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawler/vietnam_trend.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,6 +190,7 @@
       <workItem from="1577202952807" duration="3223000" />
       <workItem from="1577211726482" duration="3178000" />
       <workItem from="1577246654707" duration="3039000" />
+      <workItem from="1577250285355" duration="61000" />
     </task>
     <servers />
   </component>
